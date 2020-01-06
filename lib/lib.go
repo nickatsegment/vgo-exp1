@@ -1,3 +1,7 @@
 package lib
 
-var Version = "0.27.0"
+import "github.com/nickatsegment/vgo-exp1/lib/v2/internal"
+
+func Version() string {
+	return internal.Version
+}
