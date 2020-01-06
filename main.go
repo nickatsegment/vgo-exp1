@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var Version = "2.0.0-rc1.0"
+var Version = "2.0.0-rc1.1"
 
 var rootCmd = &cobra.Command{
 	Use: "vgo-exp1",
